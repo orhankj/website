@@ -1,0 +1,430 @@
+/* LAYOUT SECTION*/
+body{
+background: repeating-linear-gradient(
+  45deg,
+  #31B698,
+  #31B698 10px,
+  #31B618 10px,
+  #31B618 20px
+);
+	font-size: 15px;
+    
+}
+
+#header{
+background-color: #B5EEE1;
+height: 90px;
+border-radius: 7px;
+margin: 7px;
+}
+
+#navbar ul{
+	padding: 5px;
+	list-style-type: none;
+	background-color:  rgb(121,150,121);
+	margin: 10px;
+	text-align: center;
+	border-radius: 7px;
+}
+#navbar ul li{
+	display: inline;
+}
+
+#navbar ul li a{
+	text-decoration: none;
+
+	font-family: Arial;
+	padding: .2em 1em;
+	color: #ffa;
+	background-color: rgb(121,150,121);
+}
+
+#navbar ul li a:hover{
+	color: black;
+	background-color: white;
+}
+
+.rightbar{
+    width: 300px;
+	background-color:   #EFFCF9;
+	border-radius: 7px;
+	float: right;
+	padding: 20px;
+	margin-left: 10px;margin-right: 10px;
+	margin-bottom: 10px;margin-top: 0px;
+	clear: right;
+}
+.CartBar{
+    width: 300px;
+	background-color:   #EFFCF9;
+	border-radius: 7px;
+	float: right;
+	padding: 20px;
+	margin-left: 10px;margin-right: 10px;
+	margin-bottom: 10px;margin-top: 0px;
+	clear: right;
+}
+
+.imgsidebar{
+    width: 300px;
+	border-radius: 7px;
+	float: right;
+	margin-left: 10px;margin-right: 10px;
+	margin-bottom: 10px;margin-top: 0px;
+	clear: right;
+	opacity: 1.0;
+	transition:opacity 0.6s ease-in-out;
+}
+.imgsidebar:hover{
+	opacity: 0.6;
+}
+
+.container{
+background-color:  #EFFCF9;
+	border-radius: 7px;
+	margin-left: 10px;
+	margin-right: 320px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+	padding: 10px;
+	font-size: 110%;
+	border-radius: 7px;
+    overflow: hidden;
+    font-size: 105%;
+    z-index: -1;
+}
+
+#singleProduct{
+	background-color:  #EFFCF9;
+	border-radius: 7px;
+	margin-left: 10px;
+	margin-right: 320px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+	padding: 10px;
+	font-size: 110%;
+	border-radius: 7px;
+    overflow: hidden;
+    font-size: 105%;
+}
+#footer{
+	background-color: #B5EEE1;
+	margin: 10px;
+	height: 60px;
+	clear: both;
+	padding: 15px;
+	text-align: center;
+	font-size: 90%;
+	color: #45645D;
+	border-radius:7px;
+}
+#footer ul{
+	padding: 5px;
+	list-style-type: none;
+	margin: 10px;
+	text-align: center;
+	border-radius: 7px;
+
+}
+#footer ul li{
+	display: inline;
+}
+
+#footer ul li a{
+	text-decoration: none;
+
+	font-family: Arial;
+	padding: .2em 1em;
+	color: #45645D;
+
+}
+
+#footer ul li a:hover{
+	color: black;
+	background-color: white;
+}
+
+.rightbar input{
+
+	width: 135px;
+	margin-left: 0px;
+	margin-right: 1px;
+}
+
+
+
+
+
+.cartProduct{
+	margin: 5px;
+	padding: 5px;
+	font-size: 110%;
+	font-weight: bold;
+	background-color: #B5EEE1;
+}
+
+.removeProduct{
+	margin-right: 3px;
+	margin-bottom: 3px;
+	padding: 1px;
+	font-weight: bold;
+	font-size: 80%;
+	float: right;
+	width: 20px;
+	height: 20px;
+	 vertical-align:middle;
+	}
+
+.totalPrice{
+	position: relative;
+	left: 20px;
+	padding: 5px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 120%;
+}
+
+#CheckOut{
+	width: 110px;
+	height: 30px;
+    background-color: #00CCFF;
+    font-size: 120%;
+    font-weight: bolder;
+    padding: 5px;
+    margin-left: 100px;
+}
+
+
+
+.username{
+  margin-left: 0px;
+  margin-right: 20px;
+  padding: 5px;
+  font-size: 100%;
+ font-weight: bold;
+ margin-top: 3px;
+}
+
+
+
+/* LAYOUT SECTION*/
+
+/* Signin/reg*/
+.user {
+
+  padding: 15px;
+  font-weight: bolder;
+  font-size: 110%;
+margin-bottom: 1px;
+  margin-left: 5px;
+  clear: left;
+}
+input{
+	width: 180px;
+}
+input[name="password"] {
+	
+	margin-left: 122px;background-color: rgb(175,251,255);
+
+}
+input[name="newPass"] {
+	
+	margin-left: 85px;background-color: rgb(175,251,255);
+}
+input[name="confirmPass"] {
+	
+	margin-left: 54px;background-color: rgb(175,251,255);
+}
+input[name="username"] {
+	margin-top: 5px;margin-left: 50px;
+	background-color: rgb(175,251,255);
+}
+input[name="firstName"] {
+	margin-left: 111px;
+}
+input[name="LastName"] {
+	margin-left: 114px;
+}
+input[name="phone"] {
+margin-left: 147px;
+}
+textarea[name="Address"] {
+	margin-left: 137px;
+	wrap:hard;
+	height: 70px;
+	width: 149px;
+}
+
+input[name="email"] {
+	margin-left: 150px;
+}
+
+span:not(#add){
+	
+  font-weight: bold;
+  color: #5c5c5c;
+  margin-right: 5px;
+  text-align: right;
+  vertical-align: middle;
+}
+#add{ 
+  font-weight: bold;
+  color: #5c5c5c;
+  margin-top: 35px;
+  float: left;
+  
+}
+
+
+label{
+	display: inline;
+	float: left;
+	clear:left;
+}
+.user input{
+  background-color: rgb(175,251,255);
+  width: 150px;
+  height: 30px;
+
+}
+
+
+.loginBtn {
+    margin: 10px;
+	float: left;
+    clear:left;
+	width: 80px;
+	height: 30px;
+	margin-left: 230px;
+	background-color: rgb(50,255,178);
+}
+
+
+
+
+.RegDiv{
+  background-color: rgb(150,255,178);
+  margin-left: 150px;
+ margin-top: 0;
+	z-index: 10;
+	width: 350px;
+	
+	margin-bottom: 15px;
+
+}
+
+
+
+#PassError{
+font-size: 80%;
+	overflow: hidden;
+	color: red;
+		padding: 0px;
+	margin-right: 180px;
+	float: right;
+	margin-left: 15px;
+}
+#User2Error{
+font-size: 80%;
+	overflow: hidden;
+	color: red;
+	margin-left: 15px;
+	padding: 0px;
+	margin-right: 180px;
+	float: right;
+}
+#PhoneError{
+font-size: 80%;
+	overflow: hidden;
+	color: red;
+	margin-left: 15px;
+	padding: 0px;
+	float: right;
+	margin-right: 180px;
+}
+
+#Pass3Error{
+	font-size: 80%;
+	overflow: hidden;
+	color: red;
+	margin-left: 15px;
+   margin-right: 180px;
+	padding: 0px;
+	float: right;
+}
+
+#Pass2Error{
+	font-size: 80%;
+	overflow: hidden;
+	color: red;
+	margin-left: 15px;
+	margin-right: 180px;
+	padding: 0px;
+	float: right;
+}
+
+
+
+
+#NameError{
+	font-size: 80%;
+	overflow: hidden;
+	color: red;
+	margin-left: 15px;
+    margin-right: 180px;
+	padding: 0px;
+	float: right;
+}
+
+#LastNameError{
+	font-size: 80%;
+	overflow: hidden;
+	color: red;
+	margin-left: 15px;
+	padding: 0px;
+	float: right;
+	margin-right: 180px;
+}
+#AdressError{
+	font-size: 80%;
+	overflow: hidden;
+	color: red;
+	margin-left: 15px;
+	margin-right: 180px;
+	padding: 0px;
+	float: right;
+}
+#MailError{
+	font-size: 80%;
+	overflow: hidden;
+	color: red;
+	margin-left: 15px;
+margin-right: 180px;
+	padding: 0px;
+	float: right;
+}
+/*end of sing in*/
+
+
+h2{
+	font-size: 90%;
+	text-align: center;
+	color: black;
+	margin-top: 2px;
+	padding: 0px;
+	font-weight: bold;
+}
+h3{
+font-size: 250%;
+	text-align: center;
+	color: #ADADAD;
+	font-family: "Century Gothic", "Gill Sans",Arial, Sans serif;
+	margin: 0px;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform:translateY(-50%);
+}
+
+
